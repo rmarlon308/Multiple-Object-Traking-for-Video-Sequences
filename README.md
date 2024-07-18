@@ -1,8 +1,8 @@
 # Multiple Object Tracking for Video Sequences
 
-## Overview
-
 This project addresses the task of multiple object tracking (MOT), specifically focusing on tracking people walking in video sequences. The base model for detection and tracking is enhanced using advanced techniques to improve performance. The dataset used is MOT16, which contains various scenarios for individual detection.
+
+**Note:** The source code for this project is not included. However, an attached document provides a summary and commentary on the results achieved from the implementation.
 
 ## Techniques Implemented
 
@@ -35,3 +35,19 @@ The enhancements made to the object detection and tracking algorithms resulted i
 - **MOTA Improvement**: The final model achieved an average MOTA of 75.8% on the test data and 68.1% on the full dataset.
 - **Comparison with Base Model**: The base model had a lower MOTA, and the improvements introduced through better detections and the Hungarian algorithm significantly boosted performance.
 - **Qualitative Results**: The tracking visualizations show more stable and accurate trajectories, with fewer identity switches and missed detections.
+
+**Frame 30 of mot10:**
+- Base Model Detection 
+![](images/base_mot10.png)
+
+- Improved Model Detection
+![](images/model_10.png)
+
+**Frame 30 of mot10:**
+- Base Model Detection 
+![](images/base_mot13.png)
+
+- Improved Model Detection
+![](images/model_13.png)
+
+
