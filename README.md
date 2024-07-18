@@ -13,7 +13,7 @@ This project addresses the task of multiple object tracking (MOT), specifically 
 
 ## Dataset
 
-The MOT16 dataset is used for developing and evaluating the tracking algorithms. It consists of 7 training sequences and 7 test sequences, providing diverse scenarios for robust evaluation.
+The [MOT16 dataset](https://motchallenge.net/data/MOT16/) is used for developing and evaluating the tracking algorithms. It consists of 7 training sequences and 7 test sequences, providing diverse scenarios for robust evaluation.
 
 ## Performance Metrics
 
