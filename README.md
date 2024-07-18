@@ -40,18 +40,19 @@ The enhancements made to the object detection and tracking algorithms resulted i
 - **Comparison with Base Model**: The base model had a lower MOTA, and the improvements introduced through better detections and the Hungarian algorithm significantly boosted performance.
 - **Qualitative Results**: The tracking visualizations show more stable and accurate trajectories, with fewer identity switches and missed detections.
 
-### Frame 30 of mot10:**
-- Base Model Detection 
+### Frame 30 of mot10:
+#### Base Model Detection
 ![](images/base_mot10.png)
 
-- Improved Model Detection
+#### Improved Model Detection
 ![](images/model_10.png)
 
-### Frame 30 of mot13:**
-- Base Model Detection 
+### Frame 30 of mot13:
+
+#### Base Model Detection 
 ![](images/base_mot13.png)
 
-- Improved Model Detection
+#### Improved Model Detection
 ![](images/model_13.png)
 
 
