@@ -11,6 +11,10 @@ This project addresses the task of multiple object tracking (MOT), specifically 
 3. **Hungarian Algorithm**: Used for optimal assignment of detections to trajectories.
 4. **Trajectory Management**: Counters are used to manage failed detections and false positives, improving the system's robustness.
 
+## Dataset
+
+The MOT16 dataset is used for developing and evaluating the tracking algorithms. It consists of 7 training sequences and 7 test sequences, providing diverse scenarios for robust evaluation.
+
 ## Performance Metrics
 
 The primary metric for evaluating the model is MOTA (Multiple Object Tracking Accuracy). The improved model achieved an average MOTA of 75.8% on the test data and 68.1% on the full dataset, representing a significant improvement over the base model.
@@ -36,14 +40,14 @@ The enhancements made to the object detection and tracking algorithms resulted i
 - **Comparison with Base Model**: The base model had a lower MOTA, and the improvements introduced through better detections and the Hungarian algorithm significantly boosted performance.
 - **Qualitative Results**: The tracking visualizations show more stable and accurate trajectories, with fewer identity switches and missed detections.
 
-**Frame 30 of mot10:**
+### Frame 30 of mot10:**
 - Base Model Detection 
 ![](images/base_mot10.png)
 
 - Improved Model Detection
 ![](images/model_10.png)
 
-**Frame 30 of mot10:**
+### Frame 30 of mot13:**
 - Base Model Detection 
 ![](images/base_mot13.png)
 
